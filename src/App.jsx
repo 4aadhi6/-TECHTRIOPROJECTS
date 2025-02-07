@@ -11,7 +11,7 @@ const App = () => {
         {/* Routing for different pages */}
         <Routes>
           <Route path="/" element={<UserPage />} />
-          <Route path="/admin" element={<AdminPage />} />
+          <Route path="/adminloginbro" element={<AdminPage />} />
         </Routes>
         <Footer />
       </div>
