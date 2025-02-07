@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
+      "src": "build/index.html", // This should point to the `index.html` in the build folder
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/index.html" // All routes should go to `index.html` (SPA routing)
     }
   ]
 }
