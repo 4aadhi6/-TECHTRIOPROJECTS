@@ -1,15 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "build/index.html", // This should point to the `index.html` in the build folder
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html" // All routes should go to `index.html` (SPA routing)
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }

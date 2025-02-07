@@ -889,7 +889,7 @@
 
 // export default UserPage;
 import React, { useState, useEffect } from "react";
-import { fetchCategories, fetchNotes, fetchAdvertisements } from "../api";
+import { fetchCategories, fetchNotes, fetchAdvertisements } from "../api.js";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import logo from "/logo.png";
 

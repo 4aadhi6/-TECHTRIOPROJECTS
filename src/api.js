@@ -47,7 +47,7 @@
 //   });
 //   return response.json();
 // };
-const API_URL = "https://techtrioprojects-backend.onrender.com";
+const API_URL = "https://techtrioprojects-backend.onrender.com/api";
 
 // Fetch Categories
 export const fetchCategories = async () => {

@@ -251,7 +251,7 @@ import {
   fetchCategories,
   uploadNote,
   uploadAdvertisement,
-} from "../api";
+} from "../api.js";
 
 const AdminPage = () => {
   const [category, setCategory] = useState("");
