@@ -514,7 +514,8 @@
 //   );
 // };
 
-// export default AdminPage; import React, { useState, useEffect } from "react";
+// export default AdminPage; 
+import React, { useState, useEffect } from "react";
 import {
   addCategory,
   fetchCategories,
